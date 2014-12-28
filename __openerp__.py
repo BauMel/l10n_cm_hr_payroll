@@ -23,17 +23,16 @@
 #==============================================================================
 
 {
-    'name': 'l10n_cm_paye',
+    'name': 'l10n_cm_hr_payroll',
     'category': 'Localization/Payroll',
-    'author': 'OpenERP Cameroun',
+    'author': 'Odoo Cameroun',
     'version': '1.0',
     'sequence': 150,
-    'website': 'http://www.openerp-cameroun.com',
+    'website': 'http://www.odoo-cameroun.com',
+    'summary': "Module de gestion de la paye Camerounaise",
     'description': """
         Module de gestion de la paye Camerounaise
-        =========================================
-
-    """,
+        """,
     'depends': ['hr_payroll', ],
     'data': [
         'l10n_cm_paye_view.xml',
@@ -52,7 +51,6 @@
     ],
     'css': [
     ],
-    'icon': '',
     'installable': True,
     'application': False,
     'auto_install': False,
